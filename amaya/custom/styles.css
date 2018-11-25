@@ -531,6 +531,7 @@ height: 80vh;
 	}
 	#project1, #project2, #project3 {
 		width: 100%;
+		top: 50%;
 /*position: absolute;
 top: 0;
 left: 0;
