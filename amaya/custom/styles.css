@@ -237,7 +237,7 @@ position: unset;
     height: 100%;
     position: absolute;
     z-index: -1;
-    top: -5%;
+    top: 0%;
     left: -5%;
 
 }
@@ -250,7 +250,7 @@ position: unset;
     height: 100%;
     position: absolute;
     z-index: -1;
-top: -10%;
+top: -5%;
     right:0;
 	
 }
@@ -263,7 +263,7 @@ top: -10%;
     height: 100%;
     position: absolute;
     z-index: -1;
-    top: -17%;
+    top: -10%;
     left: -3%;
 }
 #project1 {
@@ -299,7 +299,7 @@ top: -10%;
     position:absolute;
     right: 00%;
 
-    top: 35%;
+    top: 40%;
     transform: translateY(-50%);
 
 }
