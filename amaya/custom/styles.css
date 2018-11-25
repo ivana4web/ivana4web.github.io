@@ -424,18 +424,9 @@ height: 80vh;
 		right: unset;
 		text-align: center;
 	}
-/*	.projectBg1, .projectBg2, .projectBg3 {
-		height: 30vh;
-	}
-	.projectHeight {
-		height: auto;
-	}
-	.projectIntro {
-		position: relative;
-		    top: 0;
-    transform: none;
-	}
-*/
+.project{
+	height: 50vh;
+}
 	.teamText {
 			padding-right: 15px;
 	padding-left: 15px;
@@ -506,21 +497,11 @@ height: 80vh;
 		right: unset;
 		text-align: center;
 	}
-/*	.projectBg1, .projectBg2, .projectBg3 {
-		height: 30vh;
-	}*/
-/*	.projectHeight {
-		height: auto;
-	}*/
-/*	.projectIntro {
-		position: relative;
-		    top: 0;
-    transform: none;
-	}*/
+
 	.BG1, .BG2, .BG3 {
 		width: 100%;
 		position: relative;
-				left: unset;
+		left: unset;
 		top: unset;
 	}
 	.overlay {
@@ -532,12 +513,7 @@ height: 80vh;
 	#project1, #project2, #project3 {
 		width: 100%;
 		top: 50%;
-/*position: absolute;
-top: 0;
-left: 0;
-right: 0;
-margin:auto;*/
-background: none;
+        background: none;
 
 	}
 	.teamText {
