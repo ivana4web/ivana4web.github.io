@@ -159,12 +159,12 @@ color:  #ff402f;
 	padding-bottom: 15px;
 }
 
-.projectHeight {
+/*.projectHeight {
 	    height: 65vh;
 	        overflow: hidden;
-}
+}*/
 
-.projectIntro {
+/*.projectIntro {
 		  position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -208,7 +208,7 @@ color:  #ff402f;
     padding-top: unset;
     padding-bottom: unset;
 }
-
+*/
 footer {
 
 	margin-bottom: 100px;
@@ -223,24 +223,96 @@ padding: 0;
 position: unset;
 }
 
-.projectLink  {
+/*.projectLink  {
 	    color: #ff0000;
 	    color: #ff402f;
-	  /*  color: #d21000;*/
+
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 700;
     font-size: 12px;
+}*/
+
+.project {
+	width: 100%;
+	height: 70vh;
+	position: relative;
+}
+.BG1 {
+		background-repeat: no-repeat;
+    background-image: url(../images/p3.jpg);
+    background-size: cover;
+    background-position: center center;
+
+	    width: 70%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -5%;
+    left: -5%;
+
+}
+.BG2 {
+		background-repeat: no-repeat;
+    background-image: url(../images/p1.jpg);
+    background-size: cover;
+    background-position: center center;
+	    width: 70%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+top: -10%;
+    right:0;
+	
+}
+.BG3 {
+	background-repeat: no-repeat;
+    background-image: url(../images/monkey.jpg);
+    background-size: cover;
+    background-position: center center;
+	    width: 70%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    top: -24%;
+    left: -3%;
+}
+#project1 {
+	   
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.70);
+	width: 65%;
+    position:absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
-.btnAction {
-	border: 2px solid  #ff402f;
-	border-radius: 30px;
-		padding: 10px 20px;
-	border-radius: 30px;
-	outline: none;
-	    color: #ff402f;
+#project2 {
+	   
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.70);
+	width: 65%;
+    position:absolute;
+   
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
 }
 
+#project3 {
+	   
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.70);
+	width: 65%;
+    position:absolute;
+    right: 00%;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+}
 .list-inline>li {
  
     padding-right: 25px;
@@ -285,12 +357,12 @@ height: 80vh;
 	text-shadow: 2px 2px 2px black;
 }
 
-
 @media only screen and (min-width: 1090px) {
 	.topnav li {
 	    padding: 0 30px;
 	}
 }
+
 @media only screen and (min-width: 769px) {
 		.desktop {
 		display: block;
@@ -306,7 +378,98 @@ height: 80vh;
 		text-align: left;
 	}
  }
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+	.desktop {
+		display: none;
+	}
+		.mobile {
+		display: block;
+	}
+
+	.logo {
+		width: 100%;
+    text-align: center;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-top: 20px;
+	}
+
+	.topnav {
+		letter-spacing: 1px;
+		font-size: 11px;
+	}
+	.topnav ul {
+		text-align: center;padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 0;
+
+	}
+	.topnav li {
+		    padding: 0 8px;
+	}
+	.mobile .CTA {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    z-index: 1;
+	}
+
+	.col-md-8, .col-md-4 {
+		    max-width: 100%;
+		    width: 100%;
+		        min-width: 100%;
+	}
+	.slick-slide img {
+    height: 85vh;
+       width: auto;
+       max-width: unset;
+	}
+	.artText {
+		right: unset;
+		text-align: center;
+	}
+/*	.projectBg1, .projectBg2, .projectBg3 {
+		height: 30vh;
+	}
+	.projectHeight {
+		height: auto;
+	}
+	.projectIntro {
+		position: relative;
+		    top: 0;
+    transform: none;
+	}
+*/
+	.teamText {
+			padding-right: 15px;
+	padding-left: 15px;
+	}
+   .page-footer li {
+	text-align: center;
+    }
+
+    .mb-1 {
+    	    padding-top: 20px;
+    padding-bottom: 20px;
+    }
+
+    footer {
+    	margin-bottom: 30px;
+    }
+    h5, .social, .footer-copyright {
+    	margin-top: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
 
 
 	.desktop {
@@ -353,17 +516,17 @@ height: 80vh;
 		right: unset;
 		text-align: center;
 	}
-	.projectBg1, .projectBg2, .projectBg3 {
+/*	.projectBg1, .projectBg2, .projectBg3 {
 		height: 30vh;
-	}
-	.projectHeight {
+	}*/
+/*	.projectHeight {
 		height: auto;
-	}
-	.projectIntro {
+	}*/
+/*	.projectIntro {
 		position: relative;
 		    top: 0;
     transform: none;
-	}
+	}*/
 
 	.teamText {
 			padding-right: 15px;
